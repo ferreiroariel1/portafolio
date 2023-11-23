@@ -6,11 +6,12 @@ import SobreMi from './SobreMi/SobreMi'
 import './App.css'
 
 
+
 function App() {
   
  return (
     <div>
-      <Menu/>
+        <Menu/>
       <Routes>
         <Route path='/' element={<Inicio />}/>
         <Route path='/Proyectos' element={<Proyectos />}/>
