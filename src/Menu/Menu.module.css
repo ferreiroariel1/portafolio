@@ -7,7 +7,10 @@
     grid-template-columns: 15% 70% 15%;
     align-items: center;
     
-}
+}.header nav :hover {
+    background: linear-gradient(180deg,  rgb(196, 159, 222), rgb(226, 212, 236));
+    border-radius: 5px; 
+  }
 
 .nav{
     width: 92%;
@@ -48,11 +51,7 @@
     height: 40px;
 }
 
-.instagram{
-    margin-left: 1%;
-    width: 50px; 
-    height: 40px;
-}
+
 
 .Logo{
     width: 5%;

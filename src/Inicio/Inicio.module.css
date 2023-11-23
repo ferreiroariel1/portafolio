@@ -6,13 +6,16 @@
   grid-template-columns: 65% 35%;
   justify-content: center;
   align-items: center;
-  padding-bottom: 16vh;
+  padding-bottom: 20vh;
   }
 
 .full{
   width: 420px;
   height: 200px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
 }
 
 .full h1 {
@@ -22,6 +25,8 @@
 .full p {
   font-size: 1.2rem;
   font-weight: 600;
+  letter-spacing: 1px;
+  
 }
 
 .botones{
@@ -30,6 +35,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  gap: 20px;
 }
 
 .botones h1 {
@@ -65,12 +71,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .botones div a {
   width: 140px;
   height: 40px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color:black;
   border: 2px solid black;
   border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
+}
+
+.botones div a:hover {
+  background: linear-gradient(180deg, rgb(196, 159, 222), rgb(226, 212, 236)); 
 }

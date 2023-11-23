@@ -25,9 +25,7 @@ function Menu() {
             <img src={github} alt="" />
         </a>
 
-        <a href="https://www.instagram.com/ariel_ferreiro1/" className={style.instagram}target="_blank" rel="noopener noreferrer">
-            <img src={instagram} alt="" />
-        </a>
+        
 
     </div>
     </header>
