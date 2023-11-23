@@ -7,9 +7,12 @@
     grid-template-columns: 15% 70% 15%;
     align-items: center;
     
-}.header nav :hover {
+}
+.header nav :hover {
     background: linear-gradient(180deg,  rgb(196, 159, 222), rgb(226, 212, 236));
     border-radius: 5px; 
+    transform: translateY(-1px);
+     
   }
 
 .nav{
@@ -19,6 +22,7 @@
     justify-content: flex-end;
     align-items: center;
     gap: 30px;
+    
 }
 
 .nav a {

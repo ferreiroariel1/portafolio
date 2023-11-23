@@ -1,8 +1,59 @@
-.Proyectos {
+.Proyectos{
+    width: 85%;
+    height: 92vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 8vh 0;
+}
+
+.cards .card:hover{
+    transform: translateY(-3px);    
+}
+
+.Proyectos h2 {
     text-align: center;
-    padding: 20px;
-    background-color: #fdf9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-  }
+    margin-bottom: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.cards .card {
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.cards .card img {
+    border-radius: 5px 5px 0 0;
+}
+
+.cards .card h3 {
+    text-align: center;
+}
+
+.cards .card p {
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.cards .card .tecnologias {
+    padding: 0 10px;
+}
+
+.cards .card .web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
