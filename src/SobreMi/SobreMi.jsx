@@ -26,10 +26,11 @@ function SobreMi() {
         <div className={style.educacion}>
           <h2>Educación</h2>
           <h3>Soy Henry</h3>
+          <a href="https://certificates.soyhenry.com/new-cert?id=735c3a13528635da6369670878147d96970342f94def7716c729cd9a737576ce" target="_blank" rel="noopener noreferrer">Certificado</a>
         </div> 
 
+          <div className={style.tecnologias}><h2>Tecnologias</h2></div>
           <div className={style.tecno}>
-            <h2>Tecnologias</h2>
             <img width='50px' src={html} alt="" />
             <img width='50px' src={css} alt="" />
             <img width='50px' src={javascript} alt="" />
