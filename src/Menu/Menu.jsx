@@ -4,6 +4,7 @@ import style from '../Menu/Menu.module.css'
 import Linkedin from '../assets/Linkedin.svg'
 import github from '../assets/github.svg'
 import logoAriel from '../assets/logoAriel.jpg';
+import cv from '../../public/pdf/cv.pdf'
 
 function Menu() {
   return (
@@ -13,9 +14,11 @@ function Menu() {
           <Link to='/'>Inicio</Link>
           <Link to='/Proyectos'>Proyectos</Link>
           <Link to='/SobreMi'>SobreMi</Link>
-          </nav>
+          <a href={cv} target="_blank" rel="noopener noreferrer">CV</a>
+        </nav>
         
         <div className={style.Redes}>
+        
         <a href="https://www.linkedin.com/in/ariel-ferreiro-30b153237/" className={style.Linkedin} target="_blank" rel="noopener noreferrer">
             <img src={Linkedin} alt="" />
         </a>

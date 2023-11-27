@@ -86,9 +86,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 600;
   
 }
 
 .botones div a:hover {
   background: linear-gradient(180deg, rgb(221, 221, 221), rgb(230, 230, 230)); 
 }
+

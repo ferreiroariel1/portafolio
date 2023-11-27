@@ -1,6 +1,9 @@
 import React from 'react'
 import style from '../Inicio/Inicio.module.css'
 import argentina from '../assets/argentina.png'
+import cv from '../../public/pdf/cv.pdf'
+
+
 
 function Inicio() {
   return (
@@ -19,9 +22,11 @@ function Inicio() {
       <h2><img src={argentina} alt="" /><span>Argentina</span></h2>
       <div>
         <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVxpDSVxbfSxLtsDgxTNKzksZMpdPHKHZfxSnPQRQXgjlNJTRjvDNVbpcrPsvgLcrXZBrW" target="_blank" rel="noopener noreferrer">GMAIL</a>
-        <a href="">CV</a>
+        <a href={cv} download target="_blank" rel="noopener noreferrer">Descargar CV</a>
       </div>
       </div>
+
+      
 
     </section>
   )
