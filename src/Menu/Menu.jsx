@@ -3,12 +3,12 @@ import {Link} from 'react-router-dom'
 import style from '../Menu/Menu.module.css'
 import Linkedin from '../assets/Linkedin.svg'
 import github from '../assets/github.svg'
-import LogoAriel from '../assets/LogoAriel.jpg';
+import logoAriel from '../assets/logoAriel.jpg';
 
 function Menu() {
   return (
     <header className={style.header}>
-      <span><img width='100px' src={LogoAriel} alt="Logo" className={style.logo} /></span>
+      <span><img width='100px' src={logoAriel} alt="Logo" className={style.logo} /></span>
         <nav className={style.nav}>
           <Link to='/'>Inicio</Link>
           <Link to='/Proyectos'>Proyectos</Link>
