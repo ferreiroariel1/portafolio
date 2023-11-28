@@ -40,6 +40,7 @@ function SobreMi() {
           </div> 
 
           <form className={style.form} action="https://formsubmit.co/719de6815d48ba2f1b923a4f1955b430" method="POST">
+            <h2>Contactame</h2>
             <div class="input-container">
                 <label for="form-name">Tu nombre*</label>
                 <input type="text" name="name"  required="" placeholder="Tu nombre"/>
