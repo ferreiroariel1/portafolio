@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import style from '../Inicio/Inicio.module.css'
 import argentina from '../assets/argentina.png'
 import cv from '../../public/pdf/cv.pdf'
@@ -6,7 +6,22 @@ import cv from '../../public/pdf/cv.pdf'
 
 
 function Inicio() {
-  return (
+ 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollButton = document.getElementById('scroll-to-top');
+      if (scrollButton) scrollButton.style.display = window.scrollY > 20 || document.documentElement.scrollTop > 20 ? 'block' : 'none';
+    };
+  
+    window.addEventListener('scroll', handleScroll);
+  
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+  
+  const scrollToTop = () => {
+    document.documentElement.scrollTop = 0;
+  };
+   return (
     <section className={style.Inicio}>
 
       <article className={style.full}>
@@ -27,7 +42,7 @@ function Inicio() {
       </div>
       
        
-      <form action="https://formsubmit.co/719de6815d48ba2f1b923a4f1955b430" method="POST">
+      <form className={style.form} action="https://formsubmit.co/719de6815d48ba2f1b923a4f1955b430" method="POST">
             <div class="input-container">
                 <label for="form-name">Tu nombre*</label>
                 <input type="text" name="name"  required="" placeholder="Tu nombre"/>
@@ -47,7 +62,10 @@ function Inicio() {
            <input type="hidden" name="_next" value="https://mi-portafolio-ariel-ferreiro.netlify.app/" />
            <input type="hidden" name="_captcha" value="false" />
         </form>
-
+        
+        <button id="scroll-to-top" onClick={scrollToTop}>
+        ▲
+      </button>
     </section>
   )
 }

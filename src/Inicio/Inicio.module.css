@@ -94,3 +94,42 @@
   background: linear-gradient(180deg, rgb(221, 221, 221), rgb(230, 230, 230)); 
 }
 
+/* Estilos mejorados para el formulario */
+form {
+  max-width: 600px;
+  margin: 10 auto;
+  padding: 50px 80px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin-top: 170px;
+  
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+textarea {
+  resize: vertical;
+}
+
+
+  
