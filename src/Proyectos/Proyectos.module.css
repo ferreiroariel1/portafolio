@@ -14,6 +14,7 @@
 .Proyectos h2 {
     text-align: center;
     margin-bottom: 30px;
+    
 }
 .cards{
     display: flex;
@@ -31,7 +32,7 @@
     border-radius: 7px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
     transition: all 0.2s ease-in-out;
 }
 
@@ -41,19 +42,62 @@
 
 .cards .card h3 {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .cards .card p {
-    padding: 0 10px;
+    padding: 0px 7px;
     font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: -10px;
 }
 
-.cards .card .tecnologias {
-    padding: 0 10px;
+.cards .card .tecno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    text-align: center;
+    
+    
+}
+
+.cards .card .tecno ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0.2em;
+    margin-right: 50px;
+    margin-left: 2px;
+}
+
+.cards .card .tecno li {
+    display: list-item;
+    color: white;
+    text-align: -webkit-match-parent;
+    background-color: rgb(11, 11, 11);
+    font-size: .8em;
+    padding: 0.1em 0.3em;
+    border-radius: 8px;
+    
+
 }
 
 .cards .card .web {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.cards .card .web a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.cards .card .web a:hover{
+    color: gray;
 }

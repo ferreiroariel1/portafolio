@@ -25,7 +25,6 @@ function Inicio() {
         <a href={cv} download target="_blank" rel="noopener noreferrer">Descargar CV</a>
       </div>
       </div>
-
       
 
     </section>

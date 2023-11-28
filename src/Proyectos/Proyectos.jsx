@@ -1,15 +1,7 @@
 import React from 'react';
 import style from '../Proyectos/Proyectos.module.css';
 import arcade from '../assets/arcade.png'
-import html from '../assets/html.svg'
-import css from '../assets/css.svg'
-import javascript from '../assets/javascript.svg'
-import react from '../assets/react.svg'
-import redux from '../assets/redux.svg'
-import node from '../assets/node.svg'
-import express from '../assets/express.svg'
-import postgresql from '../assets/postgresql.svg'
-import instagram from '../assets/instagram.svg'
+
 
 function Proyectos() {
   
@@ -18,8 +10,6 @@ function Proyectos() {
       image:[arcade],
       name: 'Arcade World',
       descrption:'Ecomerce de videojuegos, desarrollado en equipo en el proyecto final de henry',
-      tecnologias:[html, css, javascript, react, redux, node, express, postgresql],
-      url:'https://main--monumental-dragon-891db4.netlify.app/',
     }
   ]
 
@@ -36,19 +26,21 @@ function Proyectos() {
                  <h3>{card.name}</h3>
                  <p>{card.descrption}</p>
                  <div className={style.tecno}>
-                  <img width='30px' src={card.tecnologias[0]} alt="" />
-                  <img width='30px' src={card.tecnologias[1]} alt="" />
-                  <img width='30px' src={card.tecnologias[2]} alt="" />
-                  <img width='30px' src={card.tecnologias[3]} alt="" />
-                  <img width='30px' src={card.tecnologias[4]} alt="" />
-                  <img width='30px' src={card.tecnologias[5]} alt="" />
-                  <img width='30px' src={card.tecnologias[6]} alt="" />
-                  <img width='30px' src={card.tecnologias[7]} alt="" />
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Node.js</li>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>Sequelize</li>
+                    <li>Express</li>
+                    <li>PostgreSQL</li>
+                  </ul>
                  </div> 
                  <div className={style.web}>
-                  <a href={card.url} target="_blank" rel="noopener noreferrer">
-                    <img width='30px' src={instagram} alt="" />
-                  </a>
+                 <a href="https://github.com/DevJuanP/BACK_Arcade_World_PF_Henry"target="_blank" rel="noopener noreferrer">REPO</a>
+                 <a href="https://main--monumental-dragon-891db4.netlify.app/" target="_blank" rel="noopener noreferrer">APP</a>
                  </div>
               </div>
             )
