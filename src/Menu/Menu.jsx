@@ -4,7 +4,7 @@ import style from '../Menu/Menu.module.css'
 import Linkedin from '../assets/Linkedin.svg'
 import github from '../assets/github.svg'
 import logoAriel from '../assets/logoAriel.jpg';
-import cv from '../../public/pdf/cv.pdf'
+import cv from '../../public/pdf/Cv Ariel Ferreiro.pdf'
 
 function Menu() {
   return (

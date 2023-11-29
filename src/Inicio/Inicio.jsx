@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import style from '../Inicio/Inicio.module.css'
 import argentina from '../assets/argentina.png'
-import cv from '../../public/pdf/cv.pdf'
+import cv from '../../public/pdf/Cv Ariel Ferreiro.pdf'
 
 
 

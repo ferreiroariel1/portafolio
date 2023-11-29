@@ -9,6 +9,11 @@ import redux from '../assets/redux.svg'
 import node from '../assets/node.svg'
 import express from '../assets/express.svg'
 import postgresql from '../assets/postgresql.svg'
+import sequelize from '../assets/sequelize.svg'
+import jwt from '../assets/jwt.svg'
+import bcrypt from '../assets/bcrypt.svg'
+import nodemailer from '../assets/nodemailer.svg'
+
 
 function SobreMi() {
   return (
@@ -29,14 +34,18 @@ function SobreMi() {
 
           <div className={style.tecnologias}><h2>Tecnologias</h2></div>
           <div className={style.tecno}>
-            <img width='50px' src={html} alt="" />
-            <img width='50px' src={css} alt="" />
-            <img width='50px' src={javascript} alt="" />
-            <img width='50px' src={react} alt="" />
-            <img width='50px' src={redux} alt="" />
-            <img width='50px' src={node} alt="" />
-            <img width='50px' src={express} alt="" />
-            <img width='50px' src={postgresql} alt="" />
+            <h4>HTML<img width='50px' src={html} alt="" /></h4>
+            <h4>CSS<img width='50px' src={css} alt="" /></h4>
+            <h4>Javascript<img width='50px' src={javascript} alt="" /></h4>
+            <h4>React<img width='50px' src={react} alt="" /></h4>
+            <h4>Redux<img width='50px' src={redux} alt="" /></h4>
+            <h4>Node.js<img width='50px' src={node} alt="" /></h4>
+            <h4>Express<img width='50px' src={express} alt="" /></h4>
+            <h4>Sequelize<img width='50px' src={sequelize} alt="" /></h4>
+            <h4>JWT<img width='50px' src={jwt} alt="" /></h4>
+            <h4>Bcrypt<img width='50px' src={bcrypt} alt="" /></h4>
+            <h4>Nodemailer<img width='50px' src={nodemailer} alt="" /></h4>
+            
           </div> 
 
           <form className={style.form} action="https://formsubmit.co/719de6815d48ba2f1b923a4f1955b430" method="POST">
