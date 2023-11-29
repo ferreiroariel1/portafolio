@@ -4,6 +4,7 @@ import Proyectos from './Proyectos/Proyectos'
 import Menu from './Menu/Menu'
 import SobreMi from './SobreMi/SobreMi'
 import './App.css'
+import Contactame from './Contactame/Contactame'
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Inicio />}/>
         <Route path='/Proyectos' element={<Proyectos />}/>
         <Route path='/SobreMi' element={<SobreMi />}/>
+        <Route path='/Contactame' element={<Contactame/>} />
       </Routes>
     </div>
   )

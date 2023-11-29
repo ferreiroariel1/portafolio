@@ -42,33 +42,13 @@ function SobreMi() {
             <h4>Node.js<img width='50px' src={node} alt="" /></h4>
             <h4>Express<img width='50px' src={express} alt="" /></h4>
             <h4>Sequelize<img width='50px' src={sequelize} alt="" /></h4>
+            <h4>Postgresql<img width='50px' src={postgresql} alt="" /></h4>
             <h4>JWT<img width='50px' src={jwt} alt="" /></h4>
             <h4>Bcrypt<img width='50px' src={bcrypt} alt="" /></h4>
             <h4>Nodemailer<img width='50px' src={nodemailer} alt="" /></h4>
             
           </div> 
-
-          <form className={style.form} action="https://formsubmit.co/719de6815d48ba2f1b923a4f1955b430" method="POST">
-            <h2>Contactame</h2>
-            <div class="input-container">
-                <label for="form-name">Tu nombre*</label>
-                <input type="text" name="name"  required="" placeholder="Tu nombre"/>
-            </div>
-            
-            <div class="input-container">
-                <label for="form-email">Tu e-mail*</label>
-                <input type="email" name="email"  required="" placeholder="ejemplo@email.com"/>
-            </div>
-
-            <div class="input-container">
-                <label for="form-message">Tu mensaje</label>
-                <textarea name="message"  cols="20" rows="15" placeholder="Hola, mundo!"></textarea>
-            </div>
-
-           <button type="submit">Enviar</button>
-           <input type="hidden" name="_next" value="https://mi-portafolio-ariel-ferreiro.netlify.app/" />
-           <input type="hidden" name="_captcha" value="false" />
-        </form>
+          
     </section>
   )
 }
