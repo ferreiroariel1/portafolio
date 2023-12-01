@@ -9,6 +9,7 @@
 
 .form {
     max-width: 400px;
+    max-height: 480px;
     margin: 10 auto;
     padding: 50px 80px;
     background-color: rgba(0, 0, 0, 0.8);
@@ -41,4 +42,24 @@
   
   textarea {
     resize: vertical;
+  }
+
+.form button {
+  background-color: #fff; /* Color de fondo del botón */
+  color: #000; /* Color del texto del botón */
+  padding: 12px 20px; /* Espaciado interno del botón */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo mano al pasar por encima del botón */
+  font-size: 16px; /* Tamaño del texto del botón */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.form button:hover {
+  background-color: gray; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.gif {
+    margin-left: 650px;
+    margin-top: -530px;
   }
